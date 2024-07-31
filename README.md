@@ -126,9 +126,12 @@
 
 ### 例如：  
 
+<!--  
 $ A = \begin{bmatrix} 5 & -4 \\\\ 3 & -7 \end{bmatrix} \quad B = \begin{bmatrix} -5 & -9 \\\\ 6 & 9.89 \end{bmatrix} \quad C = \begin{bmatrix} 7 & 7 \\\\ 6 & -1 \end{bmatrix} $  
-
 $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7.892 & 7 \\\\ 5 & -9 \end{bmatrix} \quad $  
+-->
+![](Images/07-31-01.png)  
+
 
 ### Visual Studio 程式碼如下 :  
 

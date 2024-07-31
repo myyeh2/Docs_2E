@@ -124,7 +124,7 @@
 -->  
 ![](Images/06-27-08.png)  
 
-### 例如：  
+### 例如：矩陣 A, B, C, D, E 已知  
 
 <!--  
 $ A = \begin{bmatrix} 5 & -4 \\\\ 3 & -7 \end{bmatrix} \quad B = \begin{bmatrix} -5 & -9 \\\\ 6 & 9.89 \end{bmatrix} \quad C = \begin{bmatrix} 7 & 7 \\\\ 6 & -1 \end{bmatrix} $  
@@ -132,6 +132,7 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 -->
 ![](Images/07-31-01.png)  
 
+### F = A + B * C / D - E 。 求矩陣 F  
 
 ### Visual Studio 程式碼如下 :  
 

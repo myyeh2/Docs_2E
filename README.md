@@ -198,7 +198,7 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 
 ##  
 
-## [精 銳 科 技【矩陣計算求解器開發】](https://www.github.com/myyeh2/App_CSharp）  
+## [精 銳 科 技【矩陣計算求解器開發】](https://www.github.com/myyeh2/App_CSharp)  
 
 ######
 

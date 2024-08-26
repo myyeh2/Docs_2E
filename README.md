@@ -158,9 +158,9 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 
 #### **SMS共計有12個矩陣運算子：【+】、【-】、【*】、【/】、【==】(是否相等？)、【！=】(是否不等？)、【&】(水平合併)、【|】(垂直合併)、【^】(向量內積)、【~】(求逆)、【!】(轉置)、【+】(單位向量)。**[參見Docs_2D儲存庫](https://github.com/myyeh2/Docs_2D)  
 
+#### ***SMS(Sharp Matrix Solver)，運算元(Operand)就是矩陣，包含向量。C#的矩陣表示就是double[,]，然後再把double[,]轉化為SMS的型態的ReMatrix或是CxMatrix。這樣的好處就是可以使用這12種的矩陣計算的運算。***
 
-
-
+#### **SMS提供了數百個矩陣計算的類別庫(Class Library)，譬如計算實數【非對稱系統矩陣】的特徵值和特徵向量(一般都是複數)、奇異值和奇異向量、建構空間維度和狀態維度等多個自由度的系統矩陣A，即A是(mxr)x(mxr)的矩陣、系統響應值(System Response)的總總計算結果等等。並於後續中再介紹。**  
 
 
 <!--  Title 1    -->

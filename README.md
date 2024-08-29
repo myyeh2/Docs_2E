@@ -305,6 +305,59 @@ Console.WriteLine("矩陣Ab是否與矩陣A相同？:\n{0}", new PR(Ab));
 */
 ```  
 
+#### 已知系統矩陣A如下所示，求該矩陣A之奇異值矩陣和兩個奇異向量矩陣(不會有特徵值矩陣和特徵向量矩陣矩陣)，相關的程式碼和輸出結果如下  
+
+<!--   
+\[{ \color{Green} A = \begin{bmatrix} 9.853 & 1 \\\\ 2 & -5 \\\\ 1 & 9 \end{bmatrix} }\]
+-->  
+
+![](Images2/24-08-29-06.png)  
+
+![](Images2/24-08-29-07.png)  
+
+![](Images2/24-08-29-08.png)  
+
+```C#
+using Matrix_0;
+
+double[,] A = { {9.853, 1}, {2, -5}, {1, 9} }; 
+Console.WriteLine("列印已知矩陣A:\n{0}", new PR(A));  
+SVD svd = new SVD(A); 
+ReMatrix D = svd.MatrixD; 
+ReMatrix Q = svd.MatrixQ;  
+ReMatrix P = svd.MatrixP;  
+
+Console.WriteLine($"奇異值矩陣:\n{new PR(D)}"); 
+Console.WriteLine($"奇異向量矩陣Q:\n{new PR(Q)}"); 
+Console.WriteLine($"奇異向量矩陣P:\n{new PR(P)}"); 
+
+// A * Q = P * D  ==> A = P * D * Qi 
+ReMatrix Aa = P * D * ~Q;  
+Console.WriteLine($"矩陣Aa與矩陣A相等:\n{new PR(Aa)}");
+
+/* 輸出執行結果：  
+列印已知矩陣A:
+        9.85300          1.00000
+        2.00000         -5.00000
+        1.00000          9.00000
+奇異值矩陣:
+       10.66438          0.00000
+       0.00000           9.76487
+        0.00000          0.00000
+奇異向量矩陣Q:
+        0.60513          0.79613
+        0.79613         -0.60513
+奇異向量矩陣P:
+        0.63374          0.74135         -0.22086
+       -0.25978          0.47291          0.84195
+        0.72862         -0.47620          0.49229
+矩陣Aa與矩陣A相等:
+        9.85300          1.00000
+        2.00000         -5.00000
+        1.00000          9.00000
+*/
+```  
+
 <!--    Title 4    -->
 
 ---  

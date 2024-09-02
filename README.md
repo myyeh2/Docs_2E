@@ -162,16 +162,16 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 
 #### **SMS提供了數百個矩陣計算的類別庫(Class Library)，譬如計算實數【非對稱系統矩陣】的特徵值和特徵向量(一般都是複數)、奇異值和奇異向量(SVD)、建構空間維度和狀態維度等多個自由度的系統矩陣A，即A是(mxr)x(mxr)的矩陣、系統響應值(System Response)的種種計算結果，A = L * U。A = Q * R。矩陣的顯示(列印)。Determinants(行列式)等等。並於後續中再介紹。**  
 
-
 <!--  Title 1    -->
 ---  
 
-# **矩陣方程、矩陣微分或偏微分方程**
+# **矩陣方程、矩陣微分方程、和矩陣偏微分方程**
 
 ---  
 
+#### **有限元素法、邊界元素法、結構動力系統、控制系統、訊號與系統等等，實際上就是狀態空間。[參見狀態空間State-spce Representation](https://zh.wikipedia.org/zh-tw/狀態空間)，參考陳啓宗，"Linear System Theory and Design，ISBN 978-0-1999-6454-3，Charpter 4 State-Space Solution and Realizations"，另再參考Matlab軟體等等的説明，本人認爲還是無法清楚説明，故提出個人的想法，並以C#程式語言實作與驗證。**  
 
-
+#### **State_Space就是狀態維度和空間維度，維度就是英文的【Dimension】，林琦焜，"向量分析"乙書中稱量綱，空間維度和狀態維度互相垂直，類似互相垂直的X軸與Y軸一樣，在空間維度上有"m"個離散數值稱為有m個自由度DOF(Degree Of Freedom)，在狀態維度上有"r"個自由度，即是微分方程式的階度(Order)，狀態變數是時間的函數。狀態是某一節點(Node)在某一固定時間上有不同的變數，譬如固定時間點上有變位、速度、和加速度。**
 
 
 

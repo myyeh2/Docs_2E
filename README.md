@@ -169,7 +169,7 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 
 ---  
 
-#### **有限元素法、邊界元素法、結構動力系統、控制系統、訊號與系統等等，有關靜態(Static)或是動態(Dynamic)系統響應的求解，實際上就是空間(Space)和狀態(State)兩個互相垂直維度(Dimension)上，分別有m個和r個自由度的系統矩陣(mxr)X(mxr)的計算，空間指的是m個離散式的節點，而狀態指的是r階微分方程式(Order)連續時間的函式。[參見狀態空間State-spce Representation](https://zh.wikipedia.org/zh-tw/狀態空間)，參考陳啓宗，"Linear System Theory and Design，ISBN 978-0-1999-6454-3，Charpter 4 State-Space Solution and Realizations"，另再參考Matlab軟體等等的説明，本人認爲還是無法清楚説明，故以C#程式語言實作、測試與驗證。**  
+#### **有限元素法、邊界元素法、結構動力系統、控制系統、訊號與系統等等，有關靜態(Static)或是動態(Dynamic)系統響應的求解，實際上就是空間(Space)和狀態(State)兩個互相垂直維度(Dimension)上，分別有m個和r個自由度的系統矩陣(mxr)X(mxr)的計算，空間指的是m個離散式的節點，而狀態指的是r階(Order)微分方程式，為連續時間的函式。[參見狀態空間State-spce Representation](https://zh.wikipedia.org/zh-tw/狀態空間)，參考陳啓宗，"Linear System Theory and Design，ISBN 978-0-1999-6454-3，Charpter 4 State-Space Solution and Realizations"，另再參考Matlab軟體等等的説明，本人認爲還是無法清楚説明，故以C#程式語言實作、測試與驗證。**  
 
 #### **State_Space就是狀態維度和空間維度，維度就是英文的【Dimension】，林琦焜，"向量分析"乙書中稱量綱，空間維度和狀態維度互相垂直，類似互相垂直的X軸與Y軸一樣，在空間維度上有"m"個離散數值稱為有m個自由度DOF(Degree Of Freedom)，在狀態維度上有"r"個自由度，即是微分方程式的階度(Order)，狀態變數是連續時間的函數。狀態是某一節點(Node)在某一固定時間上有不同的變數，譬如同時有變位、速度、和加速度等不同的狀態變數。**
 

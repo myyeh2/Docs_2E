@@ -195,11 +195,61 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 
 ### **矩陣零階微分方程式(靜態，非時間的函數)**  
 
+<!--   
+#### \( \quad \quad \color{Blue} K * y = b \)  
+
+#### \( \quad \quad \color{Blue} y = K_i * b \)  
+
+#### \( \quad \quad \color{Blue} 系統矩陣A = K_i \)  
+-->  
+![](Images2/24-09-26-01.png)  
+
+
+
 ### **矩陣一階微分方程式**  
+<!--     
+#### \( \quad \quad \color{Red} C* \dot{y} + K * y = 0 \)  
+
+#### \( \quad \quad \color{Red} \dot{y} = - C_i * K * y \)  
+
+#### \( \quad \quad \color{Red} 系統矩陣A = - C_i * K  \)  
+-->  
+![](Images2/24-09-26-02.png)  
 
 ### **矩陣二階微分方程式**  
+<!--   
+#### \( \quad \quad \color{Orchid} M * \ddot{y} + C * \dot{y} + K * y = 0 \)  
+
+#### \( \quad \quad \color{Orchid} \ddot{y} = - M_i * C * \dot{y} - M_i * K * y  \)  
+
+#### \( \quad \quad \color{Orchid} \dot{y} = I_d * \dot{y} + Zero* y  \)  
+
+#### \( \quad \quad \color{Orchid}  \begin{bmatrix} \ddot{y} \\\\ \dot{y} \end{bmatrix} _h = \begin{bmatrix} - M_i * C & - M_i * K \\\\ I_d & Zero \end{bmatrix} * \begin{bmatrix} \dot{y} \\\\ y \end{bmatrix} _h \)  
+
+#### \( \quad \quad \color{Orchid} 系統矩陣A = \begin{bmatrix} - M_i * C & - M_i * K \\\\ I_d & Zero \end{bmatrix} \)
+-->  
+![](Images2/24-09-26-03.png)  
 
 ### **矩陣三階微分方程式**  
+<!--        
+#### \( \quad \quad \color{Olive} N * \dot{\ddot{y}} + M * \ddot{y} + C * \dot{y} + K * Y = 0 \)  
+
+#### \( \quad \quad \color{Olive} \dot{\ddot{y}} = - N_i * M * \ddot{y} - N_i * C * \dot{y} - N_i * K * y  \)  
+
+#### \( \quad \quad \color{Olive} \ddot{y} = I_d * \ddot{y} + Zero * \dot{y} + Zero * y \)  
+
+#### \( \quad \quad \color{Olive} \dot{y} = Zero * \ddot{y} + I_d * \dot{y} + Zero * y \)  
+-->  
+![](Images2/24-09-26-04.png)  
+
+<!--        
+#### \( \quad \quad \color{Olive} \begin{bmatrix} \dot{\ddot{y}} \\\\ \ddot{y} \\\\ \dot{y} \end{bmatrix} _h = \begin{bmatrix} -N_i * M & -N_i * C & -N_i * K \\\\ I_d & Zero & Zero \\\\ Zero & I_d & Zero \end{bmatrix} * \begin{bmatrix} \ddot{y} \\\\ \dot{y} \\\\ y  \end{bmatrix} _h \)  
+
+#### \( \quad \quad \color{Olive} 系統矩陣A = \begin{bmatrix} -N_i * M & -N_i * C & -N_i * K \\\\ I_d & Zero & Zero \\\\ Zero & I_d & Zero \end{bmatrix} \)  
+-->  
+![](Images2/24-09-26-05.png)  
+
+### **精銳矩陣計算求解器(Sharp Matrix Solver:SMS)，輸入已知的m和r參數，即可求得Id和Zero類別。依據參數r，求取系統矩陣A，即SysMatrix1、SysMatrix2、和SysMatrix3等類別，參見以下的C#程式碼。**  
 
 <!--    Title 3     -->
 
@@ -221,7 +271,7 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 
 [第二篇：國家地震工程研究中心，報告篇號：NCREE-2018-025，羅俊雄、郭采蓉、江宏偉、林云媚， "應用隨機子空間識別法於結構健康診斷：結合穩態標準與頻域分解法"](https://www.ncree.narl.org.tw/accomplishment/technicalreports/page/12034)  
 
-#### **本文是使用"唯輸出系統識別"、"奇異譜分析法"等等，但精銳矩陣計算求解器(SMS)，是以"系統(System-Oriented)為導向的矩陣計算法"、使用"特徵譜和模態特徵向量矩陣，百分百的精準求解法"，並以C#程式語言的軟體實作，而不是純理論的闡述。**  
+### **以上論文是使用"唯輸出系統識別"、"奇異譜分析法"等等。但精銳矩陣計算求解器(SMS)，是以"系統(System-Oriented)為導向的矩陣計算法"、使用複數(Complex Number)的"特徵譜矩陣和模態特徵向量矩陣，百分百的精準求解法"，並以C#程式語言的軟體實作，而不是僅是純理論的闡述。**  
 
 #### 已知系統矩陣A如下所示，求該矩陣A之特徵值矩陣、特徵向量矩陣、奇異值矩陣和兩個奇異向量矩陣，相關的程式碼和輸出結果如下  
 

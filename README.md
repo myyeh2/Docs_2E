@@ -254,7 +254,7 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 ### ***實例 : A 已知 m = 3， r = 2 如以下所示 :***  
 
 <!--     
-###### \[ \color{Green} M = \begin{bmatrix} 50 & 10 & 10 \\\\ 2 & 30 & 2 \\\\ 1.5 & 2 & 25 \end{bmatrix} C = \begin{bmatrix} 5 & -1.5 & -20 \\\\ -0.9 & 3 & -1.5 \\\\ 0.8 & -0.8 & 2 \end{bmatrix} K = \begin{bmatrix} 1200 & -25 & -25 \\\\ -3.8 & 1900 & -4.5 \\\\ -4.5 & -20 & 1500 \end{bmatrix} \]
+###### \[ \color{Green} M = \begin{bmatrix} 50 & 10 & 10 \\\\ 2 & 30 & 2 \\\\ 1.5 & 2 & 25 \end{bmatrix} C = \begin{bmatrix} 5 & -1.5 & -20 \\\\ -0.9 & 3 & -1.5 \\\\ 0.8 & -0.8 & 2 \end{bmatrix} K = \begin{bmatrix} 1200 & -25 & -25 \\\\ -3.8 & 1900 & -4.5 \\\\ -4.5 & -20 & 1500 \end{bmatrix} \]  
 -->
 ![](Images2/24-09-29-1.png)  
 
@@ -298,6 +298,18 @@ K :
    0.00000    0.00000    1.00000      0.00000      0.00000     0.00000
 */
 ```
+
+### ***實例 : B 已知 m = 2， r = 3 如以下所示 :***  
+
+<!--      
+###### \[ \color{Coral} N = \begin{bmatrix} 35 & -1 \\\\ -2 & 7.6 \end{bmatrix} M = \begin{bmatrix} 50 & 10 \\\\ 2 & 30 & \end{bmatrix} C = \begin{bmatrix} 15 & -1.5   \\\\ -0.9 & 25 \end{bmatrix} K = \begin{bmatrix} 1200 & -25 \\\\ -3.8 & 1900 \end{bmatrix} \]  
+-->   
+
+![](Images2/24-09-30-1.png)  
+
+![](Images2/24-09-30-2.png)  
+
+![](Images2/24-09-30-3.png)  
 
 <!--    Title 3     -->
 

@@ -739,6 +739,15 @@ Console.WriteLine($"矩陣Aa與矩陣A相等:\n{new PR(Aa)}");
 
 ### **(6.3)，通解**  
 
+<!--       
+#### \( \color{Purple} \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix}_g =  \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix}_h + \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix}_p \)
+
+#### \( \color{Purple} \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix}_h = H_{exp}(D, Q, t) * d \)
+
+#### \( \color{Purple} \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix}_p 可參見(6.2) \)  
+-->  
+![](Images2/24-10-06-5.png)  
+
 <!--   
 ####  \[{  \color{Teal} *\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*  }\]  
 -->  

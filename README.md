@@ -738,6 +738,10 @@ Console.WriteLine($"矩陣Aa與矩陣A相等:\n{new PR(Aa)}");
 #### **代入上式方程式，即可求得f(t)，表示先設定系統響應值yp(t)為已知，則可求得所需的輸入值f(t)。但若輸入的f(t)已知，除非空間維度僅有一個自由度(m=1)，否則不易求得輸出值yp(t)。**  
 
 ### **(6.3)，通解**  
+<!--      
+#### \( \color{Purple} \begin{bmatrix} \ddot{y}(t) \\\\ \dot{y}(t) \end{bmatrix}_g =  \begin{bmatrix} \ddot{y}(t) \\\\ \dot{y}(t) \end{bmatrix}_h + \begin{bmatrix} \ddot{y}(t) \\\\ \dot{y}(t) \end{bmatrix}_p  \)
+-->
+![](Images2/24-10-06-6.png)  
 
 <!--       
 #### \( \color{Purple} \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix}_g =  \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix}_h + \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix}_p \)
@@ -747,6 +751,8 @@ Console.WriteLine($"矩陣Aa與矩陣A相等:\n{new PR(Aa)}");
 #### \( \color{Purple} \begin{bmatrix} \dot{y}(t) \\\\ y(t) \end{bmatrix}_p 可參見(6.2) \)  
 -->  
 ![](Images2/24-10-06-5.png)  
+
+#### **Hexp(D, Q, t)稱作系統響應函數          aa**
 
 <!--   
 ####  \[{  \color{Teal} *\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*  }\]  

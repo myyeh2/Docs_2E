@@ -693,10 +693,34 @@ Console.WriteLine($"矩陣Aa與矩陣A相等:\n{new PR(Aa)}");
 
 ### **(6.1)，齊次解--空間(Space)維度有m個自由度(Degree Of Freedon : DOF)，狀態(State)維度有r個自由度，表示矩陣微分方程式有r階(Order)，以下以r=2説明。**  
 
-### A * Q = Q * D ==> A = Q * D * Qi  
+<!--    
+#### \( \color{Fuchsia} A * Q = Q * D \quad => \quad A = Q * D * Qi \)  
 
+#### \( \color{Fuchsia} A : 實數系統矩陣，參見(4，系統矩陣A) \)  
 
+#### \(  \color{Fuchsia} D : 複數特徵值矩陣， 參見(5，特徵值與特徵向量矩陣) \)  
 
+#### \( \color{Fuchsia} Q : 複數特徵向量矩陣，參見(同上) \)
+
+#### \( \color{Fuchsia} \begin{bmatrix} \ddot{y} \\\\ \dot{y} \end{bmatrix} = A * \begin{bmatrix} \dot{y} \\\\ y \end{bmatrix}  \)  
+
+#### \( \color{Fuchsia}  Q_i * \begin{bmatrix} \ddot{y} \\\\ \dot{y} \end{bmatrix}  = D * ( Q_i * \begin{bmatrix} \dot{y} \\\\ y \end{bmatrix} ) \quad =>  \)  
+
+#### \( \color{Fuchsia} 求得 \begin{bmatrix} \dot{y} \\\\ y \end{bmatrix} =  Q * D_{exp}(D, t)  * d = H_{exp} (D, Q, t) * d \)
+
+#### \( \color{Fuchsia} H_{exp} (D, Q, t) = Q * Diag(e^{\lambda_0 * t}, \quad \cdots \quad , e^{\lambda_{m-1} * t}  )  \)  
+
+#### \( \color{Fuchsia} \lambda_j = a_j + b_j * i，\quad j = 0 \quad \cdots \quad m - 1 共m個。 \)
+
+#### \(  \color{Fuchsia}  d是複數係數向量，由量測的初始值和邊界值求得。\)
+
+#### \( \color{Fuchsia} H_{exp}(D, Q, t) 即SMS的類別:CxHexp(D, Q, t)。\)  
+-->  
+![](Images2/24-10-06-1.png)  
+
+![](Images2/24-10-06-2.png)  
+
+![](Images2/24-10-06-3.png)  
 
 ### **(6.2)，特別解**  
 

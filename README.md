@@ -724,6 +724,18 @@ Console.WriteLine($"矩陣Aa與矩陣A相等:\n{new PR(Aa)}");
 
 ### **(6.2)，特別解**  
 
+<!--     
+#### \( \color{chocolate} M * \ddot{y_p}(t) + C * \dot{y_p}(t) + K * y_p(t) = f(t) \)  
+
+#### \( \color{chocolate} 先設定響應值 \quad y_p(t) = B_0 * u(t) \quad 已知 \)  
+
+#### \( \color{chocolate} 則可求得 \quad \dot{y_p}(t) = B_0 * \dot{u}(t) = B_1 * u(t) \)  
+
+#### \( \color{chocolate} 則可求得 \quad \ddot{y_p}(t) = B_0 * \ddot{u}(t) = B_2 * u(t) \)  
+-->  
+![](Images2/24-10-06-4.png)  
+
+#### **代入上式方程式，即可求得f(t)，表示先設定系統響應值y$_p$(t)為已知，則可求得所需的輸入值f(t)。但若輸入的f(t)已知，除非空間維度僅有一個自由度(m=1)，否則不易求得輸出值y$_p$(t)。**  
 
 ### **(6.3)，通解**  
 

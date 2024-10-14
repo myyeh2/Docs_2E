@@ -88,7 +88,7 @@
 
 #### ***在網路上，常常有人提到矩陣的對角線化，但我不知是否有人實際以程式碼去實作，對於【實數正方形非對稱矩陣】的對角化，實際上是永遠無法產生上三角型矩陣【Upper Triangular Diagonal Matrix】，這時產生的矩陣稱為【Qusi-Sub-Diagonal Matrix】，這是非常關鍵的重要型態矩陣，Qusi-Sub-Diagonal Matrix暫時稱爲【Ye Matrix，葉氏矩陣 】，我這樣稱呼的主要的原因是，我並未發現有人談到這種矩陣(若有時，本人表示歉意！也敬請Email給我)，依據維基百科之解釋就是Reduced Upper Hessenberg Matrix，由此矩陣就可以產生【複數的特徵值矩陣D】，再由複數特徵值矩陣D，推導出複數的特徵向量矩陣Q，他們的關係是【A * Q = Q * D => A = Q * D * Qi】, Qi是Q矩陣的逆矩陣，即使Det(A) = 0，但Q矩陣也永遠不為零。另外值得一提的是，若系統矩陣A為正方形實數對稱矩陣，則Q和D都是實數，且Qi = Qt，即A= Q * D * Qt。總而言之實數是複數的subset，即複數的Scope大於等於實數的Scope。***  
 
-#### ***數值求解特徵值和特徵向量，與矩陣計算相關的兩本數學聖經書，第一本是James Hardy Wilkinson，"The Algebraic Eiginvalue Problem"，第二本是Gene H. Golub & Charles F. Van Loan，"Matrix Computations 4th Edition，第七章Unsymmetric Eigenvalue Problems"。若熟悉SMS(精銳矩陣計算求解器)的操作，幾乎可包含上述兩本書的精要。***  
+#### ***數值求解特徵值和特徵向量，與矩陣計算相關的兩本數學聖經書，第一本是James Hardy Wilkinson，"The Algebraic Eigenvalue Problem"，第二本是Gene H. Golub & Charles F. Van Loan，"Matrix Computations 4th Edition，第七章Unsymmetric Eigenvalue Problems"。若熟悉SMS(精銳矩陣計算求解器)的操作，幾乎可包含上述兩本書的精要。***  
 
 ##  
 

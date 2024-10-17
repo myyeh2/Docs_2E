@@ -245,7 +245,7 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 -->  
 ![](Images2/24-09-26-05.png)  
 
-### **精銳矩陣計算求解器(Sharp Matrix Solver:SMS)，輸入已知的m和r參數，即可求得Id和Zero類別。依據參數r，求取系統矩陣A，即SysMatrix1、SysMatrix2、和SysMatrix3等類別，參見以下的C#程式碼。**  
+### **精銳矩陣計算求解器(Sharp Matrix Solver:SMS)，輸入已知的m和r參數，即可求得Id和Zero類別。依據參數r，求取系統矩陣A，即`SysMatrix1`、`SysMatrix2`、和`SysMatrix3`等類別，參見以下的C#程式碼。**  
 
 ### ***實例 : A1 已知 m = 3， r = 2 如以下所示 :***  
 

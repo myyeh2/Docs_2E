@@ -177,16 +177,20 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 
 #### **無論系統分析或設計者，應該知道系統的空間維度有m個節點，而狀態維度有r個階度，但事實上每一個節點並非僅有一個自由度，譬如建築結構的每一個節點有六個方向自由度，故應稱空間維度有m個自由度，狀態維度有r個自由度(即矩陣微分方程的階度、Order)，由矩陣微分方程式，建構(mxr)X(mxr)的系統矩陣A。**  
 
-### **矩陣零階微分方程式(靜態，非時間的函數)**  
+### **矩陣零階微分方程式(m >= 1 且 r = 0)**  
 
-<!--   
-#### \( \quad \quad \color{Blue} K * y = b \)  
+<!--     
+#### \( \quad \quad \color{Blue} K_{m \times m} * y_{m \times 1}(t) = f_{m \times 1}(t)  \)  
 
-#### \( \quad \quad \color{Blue} y = K_i * b \)  
+#### \( \quad \quad \color{Blue} K * y_h(t) = 0 \quad \color{Brown} => \color{Blue} \quad y_h(t) = 0_{m \times 1} \)  
+
+#### \( \quad \quad \color{Blue} K * y_p(t) = f(t) \quad \color{Brown} => \color{Blue} \quad y_p(t) = K_i * f(t) \)  
+
+#### \( \quad \quad \color{Blue} y(t) = y_h(t) + y_p(t) = K_i * f(t) \)  
 
 #### \( \quad \quad \color{Blue} 系統矩陣A = K_i \)  
 -->  
-![](Images2/24-09-26-01.png)  
+![](Images2/24-10-25-1.png)  
 
 ### **矩陣一階微分方程式**  
 <!--     

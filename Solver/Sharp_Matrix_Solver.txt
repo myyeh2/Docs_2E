@@ -1,4 +1,6 @@
-僅供參考，尚待修正。
+Note: 
+For Reference Only. This Document will be revised latter.
+ 
 Sharp  Matrix  Solver
 (2021/10/27)(2021/11/14)(2021/11/26)(2022/4/8)(2022/4/29)  
 (2022/10/3)(2022/10/27)(2023/3/4) 
@@ -189,7 +191,7 @@ O :
 ( 01 )	OP 
 
 P : 
-( 11 )   PermCount 
+( 11 )  PermCount 
 ( 01 )	Polar 
 ( 10 ) 	Poster 
 ( 02 )	PowerMax 

@@ -130,7 +130,7 @@ I :
 ( 17 )	IsDetZero 
 ( 18 )	IsDiag 
 ( 05 )	IsDiagZero 
-( 06 )   IsElementBad 
+( 06 )  IsElementBad 
 ( 07 )	IsEqual 
 ( 12 )	IsInvertible 
 ( 08 )	IsOrthogonal 

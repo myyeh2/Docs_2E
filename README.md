@@ -765,6 +765,12 @@ Console.WriteLine($"矩陣Aa與矩陣A相等:\n{new PR(Aa)}");
 -->  
 ![](Images/06-27-08.png)  
 
-## [精 銳 科 技【矩陣計算求解器開發】](https://www.github.com/myyeh2/App_CSharp)  
+## [精 銳 科 技【矩陣計算求解器開發】 https://www.github.com/myyeh2/App_CSharp ](https://www.github.com/myyeh2/App_CSharp)  
+
+<!--    
+# \[{ \color{Green}精*\color{Blue}銳*\color{Fuchsia}矩*陣*\color{Red}計*算*\color{Blue}科*\color{Green}技}\]
+-->
+![](Images2/24-12-09-01.png)
+
 
 ![](Images/name_card.png)  

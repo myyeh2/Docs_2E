@@ -771,6 +771,9 @@ Console.WriteLine($"矩陣Aa與矩陣A相等:\n{new PR(Aa)}");
 
 ![](Images2/25-02-11-02.png)  
 
+## ***請下載並安裝微軟 Visual Studio 2022 以上的版本。***  
+
+
 
 
 

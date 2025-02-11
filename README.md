@@ -760,6 +760,20 @@ Console.WriteLine($"矩陣Aa與矩陣A相等:\n{new PR(Aa)}");
 
 ---  
 
+<!--  
+# \[{  \color{Fuchsia}精\quad銳\color{Teal}\quad矩\quad陣\color{Brown}\quad計\quad算 }\]  
+-->  
+![](Images2/25-02-11-01.png)  
+
+<!--  
+# \[{ \color{Red} 入\color{Lavender}\;*\;*\;*\;*\;*\;*\;*\;*\;\color{Red}\;門 }\]  
+-->  
+
+![](Images2/25-02-11-02.png)  
+
+
+
+
 <!--   
 ####  \[{  \color{Teal} *\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*\;*  }\]  
 -->  

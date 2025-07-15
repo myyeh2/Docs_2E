@@ -128,6 +128,8 @@ $ D = \begin{bmatrix} 5 & 8 \\\\ 5 & 4 \end{bmatrix} \quad E = \begin{bmatrix} 7
 
 ### Visual Studio 程式碼如下 :  
 
+![](Images2/25-07-15-01.png)
+
 ![](Images/07-28-02.png)  
 
 ![](Images/07-28-03.png)  

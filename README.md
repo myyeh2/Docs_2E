@@ -4,7 +4,7 @@
 # \[{  \color{Fuchsia}精\;銳\; \color{Purple}矩\;陣\;  \color{Red}計\;算\; \color{Green} 求\;解\;器  }\] 
 -->  
 
- ![](Images/11-10-01.png) 
+ ![](Images/11-10-01.png)
 
 <!--         
 #### \[{  \color{Fuchsia} 【 \color{Green}  Sharp \; Matrix \; Solver \;  \color{Brown} \iff  \;  \color{Red} S\;M\;S】 }\]  
@@ -22,6 +22,7 @@
 <!--   
 # \[{  \color{Purple}Computational \quad \color{Fuchsia}Matrix  }\] 
 -->
+
 ![](Images/06-27-02.png)
 
 <!--    
